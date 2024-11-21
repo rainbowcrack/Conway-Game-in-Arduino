@@ -11,11 +11,10 @@
   <img src="https://github.com/user-attachments/assets/73403d68-9326-42b2-9826-7f9fb753157e" width="500" />
 </div>
 
-<p>
-  Surge daí a iniciativa de adaptar esse sistema para o trabalho final de Arduino da disciplina "Laboratório de Iniciação à Computação", em Ciência da Computação. <p>
-    Desenvolvido por [Izabel Chaves](https://github.com/rainbowcrack/)
-  </p>
-</p>
+  Surge daí a iniciativa de adaptar esse sistema para o trabalho final de Arduino da disciplina "Laboratório de Iniciação à Computação".
+
+  ### Projeto desenvolvido por 
+  [Izabel Chaves](https://github.com/rainbowcrack/) (Aluna do 1º período de Ciência da Computação - PUC MINAS) @ 2024
 
 ## Componentes
 * Placa de ensaio
@@ -59,7 +58,8 @@ No entanto, o Begin não será usado porque o espaço amostral para ocorrer as e
 #define DISPLAY_LIN 2
 #define DISPLAY_COL 16
 ```
-Haverá um contador de populações definido pelo programador que será incrementado a cada interação 
+Haverá um contador de populações definido pelo programador que será incrementado a cada interação.
+
 ```cpp
 // Contador de populações
 int populacaonCount = 0;
@@ -95,6 +95,25 @@ E atualizar o valor da Matriz será dado em:
 
 ## Tópicos que foram trabalhados
 * Importações de Biblioteca
+* Programação em Arduino e em C++
+* Matrizes
+* Simulação de Eventos
+* Condicionais e Contadores
+* Manipulação de bits
+* Memória de Buffer e Tempo de Evolução de Sistemas Dinâmicos
+* Funções Atômicas/Modularização
+* Autômatos Celulares
+* Algoritmos Genéticos
+* Problema para a Máquina de Turing-Completa
+  
 ## Explorado Futuramente
+A expansão da simulação para melhor visualizar em uma Matriz de LEDS ou um Display LCD com mais Bits, pois houve um conflito que requeriu adaptação "Como fazer uma Matriz para 8x8 bits se comportar no Display com capacidade de apenas 16x2?" Olhando os microbits! Que em um cenário futuro pode ser interpretado com a manipulação direta dessa memória para além das facilidades que a biblioteca LiquidCrystal propõe fugindo da análise da tabela ASCII olhando cada caractere (problema a ver em **Arquitetura de Computadores**).
 
+Ao invés de analisar a evolução de um Glider e a quantidade fixas de gerações, deixar o usuário informar os valores e as posições.
 
+Em um contexto mais avançado, no quesito de Pesquisa Científica, prever a construção de uma **Máquina de Turing-Completa** a partir da premissa que a evolução de Autômatos Celulares em um sistema simples como em um Arduino simula uma posterior contrução de um computador complexo, com suas entradas lógicas.
+
+Analisar contextos de disseminação de vírus ou evolução de populações por índices estatísticos similares ao IDH, papel da **Geografia Estatística, Avanços na Computação, Medicina e Estratégia Política.**
+
+## Créditos
+[Izabel Chaves](https://github.com/rainbowcrack/) (Aluna do 1º período de Ciência da Computação - PUC MINAS) @ 2024
