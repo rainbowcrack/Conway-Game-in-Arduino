@@ -46,7 +46,7 @@
 </div>
 
 ## Exemplos de código
-A biblioteca LiquidCrystal simplifica a integração do display LCD com o código passado ao Arduino, por meio de funções (ver as especificações da biblioteca). Assim, os números do LCD correspondem à: RS, E, D4, D5, D6 e D7 respectivamente, enquanto o Begin inicializa a Matriz 16x2.
+A biblioteca [LiquidCrystal](https://docs.arduino.cc/libraries/liquidcrystal/) simplifica a integração do display LCD com o código passado ao Arduino, por meio de funções (ver as especificações da biblioteca). Assim, os números do LCD correspondem à: RS, E, D4, D5, D6 e D7 respectivamente, enquanto o Begin inicializa a Matriz 16x2.
 
 ```cpp
 #include <LiquidCrystal.h>
@@ -76,7 +76,7 @@ if (newTabuleiro[i][j] == 1) {
 // Ao final da simulação, exibe o número total de populações
     if (populacaoCount > 20) {  // Por exemplo, parar após 20 ciclos
 ```
-Para caso a função em C++ seja " _condição ? valor_se_verdadeiro : valor_se_falso;_ " as **Regras do Jogo da Vida** são definidas por:
+Para caso a função em C++ seja " _condição ? valor_se_verdadeiro : valor_se_falso;_ " as **Regras do Jogo da Vida** são definidas por meio de um **Wrap-around**:
 
 ```cpp
 if (tabuleiro[i][j] == 1) {  // Célula viva
