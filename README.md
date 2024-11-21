@@ -18,20 +18,22 @@
 ## Componentes
 * Placa de ensaio
 * Arduino UNO R3
+* Resistor 10kΩ
 * Potênciometro
 * Display LCD (16x2)
 * Cabos
-### veja
+  
+### Informações Detalhadas do Display LCD e do Arduino
 | Pino do Display LCD (16x2) | Conectar no Pino do Arduino UNO R3 | O que significa? |
 |----------|----------|----------|
-| VSS  | GND (ao Potênciometro)   | A   |
-| VDD  | 5V   | Dado 4   |
-| V0  | ao Potênciometro   | Dado 6   |
-| RS  | 12 pino  | Dado 8   |
-| RW  | GND   | Dado 10  |
-| E  | 11 pino  | Dado 12  |
-| D4-D7  | 5 a 2 Pino  | Dado 14  |
-| A      |  resistor | dado |
-| K    | GND   | dado |
+| VSS  | GND (do Potênciometro) | Fio Terra |
+| VDD  | 5V | Alimentação |
+| V0  | Entrada Analógica (do Potênciometro) | Controle de voltagem no LCD |
+| RS  | Pino 12 | Registro de Seleção |
+| RW  | GND | Leitura e Escrita |
+| E  | Pino 11 | Habilita Transferência de Dados  |
+| D4-D7 | Pino 5 ao 2 | Entrada de Dados |
+| A | Resistor | Controle de itensidade do LED do LCD |
+| K | GND | Fecha o circuito do LED do LCD |
 
 
