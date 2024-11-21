@@ -8,7 +8,7 @@
 * Uma célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração;</p>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/user-attachments/assets/73403d68-9326-42b2-9826-7f9fb753157e" width="500" />
+  <img src="img/jogodavida.jpg" width="500" />
 </div>
 
   Surge daí a iniciativa de adaptar esse sistema para o trabalho final de Arduino da disciplina "Laboratório de Iniciação à Computação".
@@ -40,6 +40,10 @@
 <p>
   O Potênciometro é responsável por controlar a itensidade do brilho da tela, enquanto os demais pinos do Display LCD são fornecidos para a entrada de dados com exeção do "A" e "K" restritos a tratar os bits como leds acesos ou não e o "E" para a Matriz 16x2. 
 </p>
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/jogodavida2.jpg" width="500" />
+</div>
 
 ## Exemplos de código
 A biblioteca LiquidCrystal simplifica a integração do display LCD com o código passado ao Arduino, por meio de funções (ver as especificações da biblioteca). Assim, os números do LCD correspondem à: RS, E, D4, D5, D6 e D7 respectivamente, enquanto o Begin inicializa a Matriz 16x2.
@@ -105,6 +109,10 @@ E atualizar o valor da Matriz será dado em:
 * Autômatos Celulares
 * Algoritmos Genéticos
 * Problema para a Máquina de Turing-Completa
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/jogodavida3.jpg" width="500" />
+</div>
   
 ## Explorado Futuramente
 A expansão da simulação para melhor visualizar em uma Matriz de LEDS ou um Display LCD com mais Bits, pois houve um conflito que requeriu adaptação "Como fazer uma Matriz para 8x8 bits se comportar no Display com capacidade de apenas 16x2?" Olhando os microbits! Que em um cenário futuro pode ser interpretado com a manipulação direta dessa memória para além das facilidades que a biblioteca LiquidCrystal propõe fugindo da análise da tabela ASCII olhando cada caractere (problema a ver em **Arquitetura de Computadores**).
